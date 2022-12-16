@@ -7,6 +7,8 @@
 }
 
 @mixin ellipsis($before:true) {
+  @extend .page-item;
+  @extend .page-link;
   content: "\2026";
   font-size: 24px;
   display: inline-block;
