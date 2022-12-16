@@ -19,7 +19,7 @@
 
 // Too much to override, just do the difference
 @media(max-width:767px) {
-  li {
+  .pagination li {
 
     &:first-child,
     &.active,
@@ -100,7 +100,7 @@
   }
 }
 @media (min-width: 768px) {
-  li {
+  .pagination li {
     &:first-child,
     &.active-sibling,
     &.active,
