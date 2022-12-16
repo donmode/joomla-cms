@@ -233,6 +233,8 @@ meter {
   .pagination {
     justify-content: space-between;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
     margin: $cassiopeia-grid-gutter 0;
 
     .next:only-child {
